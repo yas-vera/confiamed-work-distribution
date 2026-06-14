@@ -114,7 +114,8 @@ Mandando este ítem (muy relevante, vence en 2 días) a `POST /api/workitems/dis
 ```
 Para repartir varios de golpe, se manda una lista a `POST /api/workitems/distribute/batch`:
 
-```[
+```json
+[
   { "title": "Item poco relevante", "dueDate": "2026-08-01", "relevance": 0 },
   { "title": "Item muy relevante", "dueDate": "2026-08-01", "relevance": 1 },
   { "title": "Item que vence pronto", "dueDate": "2026-06-15", "relevance": 0 }

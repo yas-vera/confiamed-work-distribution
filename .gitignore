@@ -1,0 +1,51 @@
+## Archivos y carpetas generados por Visual Studio y la compilación de .NET
+
+# Carpetas de compilación
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Bb]uild/
+[Bb]uilds/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Carpeta de usuario de Visual Studio (configuración local)
+.vs/
+
+# Archivos de usuario
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Archivos de resultados de compilación
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# Restauración de paquetes NuGet
+*.nupkg
+*.snupkg
+packages/
+**/packages/*
+!**/packages/build/
+
+# Logs y temporales
+*.log
+*.tmp
+*.temp
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Rider / JetBrains
+.idea/
+
+# Visual Studio Code
+.vscode/
